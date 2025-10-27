@@ -1,0 +1,125 @@
+/* EventCard.css */
+.event-card-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.event-card {
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.event-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Visibility types */
+.event-public {
+  background-color: #ecfdf5;
+  border-color: #6ee7b7;
+}
+
+.event-public:hover {
+  box-shadow: 0 8px 20px rgba(16,185,129,0.2);
+}
+
+.event-shared {
+  background-color: #eff6ff;
+  border-color: #93c5fd;
+}
+
+.event-shared:hover {
+  box-shadow: 0 8px 20px rgba(59,130,246,0.2);
+}
+
+.event-private {
+  background-color: #fef2f2;
+  border-color: #fca5a5;
+}
+
+.event-private:hover {
+  box-shadow: 0 8px 20px rgba(239,68,68,0.2);
+}
+
+/* Grid inside card */
+.event-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Header inside card */
+.event-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.event-card-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #111827;
+  margin: 0;
+  line-height: 1.2;
+  flex: 1;
+}
+
+.event-badge {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Badge colors */
+.badge-public {
+  background-color: #d1fae5;
+  color: #065f46;
+  border-color: #6ee7b7;
+}
+
+.badge-shared {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+  border-color: #93c5fd;
+}
+
+.badge-private {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  border-color: #fca5a5;
+}
+
+/* Info boxes */
+.event-info {
+  background-color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.event-info p {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Date, time, location colors */
+.date-text { color: #4f46e5; }
+.time-text { color: #7c3aed; }
+.location-text { color: #db2777; }
