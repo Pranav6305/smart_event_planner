@@ -1,8 +1,8 @@
-📅 Smart Event Planner
+# Smart Event Planner
 
 A smart and user-friendly web application designed to simplify event planning and management. It allows users to create, organize, and track events efficiently with an intuitive interface and structured workflow.
 
-🚀 Features
+Features
 - Create, update, and delete events
 - Event scheduling with date & time management
 - User-friendly dashboard for event overview
@@ -10,38 +10,38 @@ A smart and user-friendly web application designed to simplify event planning an
 - Real-time updates for event changes
 - Secure authentication system (if implemented)
   
-🛠️ Tech Stack
+Tech Stack
 - Frontend: HTML, CSS, JavaScript
 - Backend: Django (Python)
 - Database: MySQL / SQLite (based on setup)
 - Tools: Git, GitHub, VS Code
 
-⚙️ Installation & Setup
-# Clone the repository
+Installation & Setup
+Clone the repository
 git clone https://github.com/Pranav6305/smart_event_planner.git
 
-# Move into project directory
+Move into project directory
 cd smart_event_planner
 
-# Create virtual environment
+Create virtual environment
 python -m venv venv
 
-# Activate environment
-# Windows:
+Activate environment
+Windows:
 venv\Scripts\activate
-# Mac/Linux:
+Mac/Linux:
 source venv/bin/activate
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-# Run migrations
+Run migrations
 python manage.py migrate
 
-# Start server
+Start server
 python manage.py runserver
 
-🎯 Future Improvements
+Future Improvements
 - Email notifications for events
 - Calendar integration (Google Calendar sync)
 - Mobile responsive UI improvements
