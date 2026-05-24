@@ -8,13 +8,10 @@ Features
 - User-friendly dashboard for event overview
 - Event categorization and filtering
 - Real-time updates for event changes
-- Secure authentication system (if implemented)
   
 Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: Django (Python)
-- Database: MySQL / SQLite (based on setup)
-- Tools: Git, GitHub, VS Code
+- Frontend: React.js
+- Database: Firebase
 
 Installation & Setup
 Clone the repository
