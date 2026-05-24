@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+📅 Smart Event Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A smart and user-friendly web application designed to simplify event planning and management. It allows users to create, organize, and track events efficiently with an intuitive interface and structured workflow.
 
-## Available Scripts
+🚀 Features
+- Create, update, and delete events
+- Event scheduling with date & time management
+- User-friendly dashboard for event overview
+- Event categorization and filtering
+- Real-time updates for event changes
+- Secure authentication system (if implemented)
+  
+🛠️ Tech Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: Django (Python)
+- Database: MySQL / SQLite (based on setup)
+- Tools: Git, GitHub, VS Code
 
-In the project directory, you can run:
+⚙️ Installation & Setup
+# Clone the repository
+git clone https://github.com/Pranav6305/smart_event_planner.git
 
-### `npm start`
+# Move into project directory
+cd smart_event_planner
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Create virtual environment
+python -m venv venv
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Activate environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
 
-### `npm test`
+# Install dependencies
+pip install -r requirements.txt
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Run migrations
+python manage.py migrate
 
-### `npm run build`
+# Start server
+python manage.py runserver
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🎯 Future Improvements
+- Email notifications for events
+- Calendar integration (Google Calendar sync)
+- Mobile responsive UI improvements
+- AI-based event suggestions
